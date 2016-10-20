@@ -11,7 +11,8 @@ int main()
     c.erase(remove_if(c.begin(), c.end(), [x](int n) { return n < x; } ), c.end());
  
     cout << "c: ";
-    for (auto i: c) {
+    for (auto i: c) 
+    {
         cout << i << ' ';
     }
     cout << '\n';
